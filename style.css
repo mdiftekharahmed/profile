@@ -141,6 +141,7 @@ body {
   font-weight: lighter;
   opacity: 0.7;
   margin-bottom: 2rem;
+  z-index:-1;
 }
 /* banner subtitle end */
 
@@ -181,6 +182,7 @@ body {
   color: white;
   opacity: 0.5;
   animation: up_down 1s infinite;
+  z-index: -1;
 }
 @keyframes up_down {
   25% {
@@ -213,6 +215,7 @@ body {
   position: relative;
   max-height: 400px;
   max-width: 400px;
+  z-index:-1;
 }
 .about__info__img {
   display: block;
@@ -221,6 +224,7 @@ body {
   position: relative;
   border-radius: 0.5rem;
   box-shadow: 0 0 20px 3px white;
+  z-index: -1;
 }
 
 /* about info data section */
@@ -264,6 +268,7 @@ body {
   color: white;
   margin: 1rem;
   opacity: 0.7;
+  z-index: -1;
 }
 .main__button,
 .about__info__single__link {
